@@ -1,0 +1,64 @@
+:root {
+    --body: linear-gradient(to right, #434343 0%, black 100%);
+    --primary-colour: #595959;
+    --secondary-colour: #C4C4C4;
+    --text-colour: #f1e6e6; 
+    --heading-font: 'Merriweather', serif;
+    --text-font: 'Questrial', sans-serif;
+}
+
+body{
+    background: var(--body);
+    
+}
+
+h1, h3 {
+    font-family: var(--heading-font);
+}
+
+span .text  {
+    color: var(--secondary-colour);
+}
+
+p, footer {
+   font-family: var(--text-font); 
+}
+
+p {
+    font-size: 20px;
+}
+
+.intro {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+.text {
+    color: var(--text-colour);
+}
+
+.text a {
+    text-decoration: none;
+    color: var(--secondary-colour);
+}
+
+.navbar {
+    background: var(--body);
+    font-family: var(--heading-font);
+}
+
+.underline {
+    text-decoration: dashed;
+}
+
+@media (max-width: 575.98px) {
+    p {
+        font-size: 20px ;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 14px;
+    }
+}
