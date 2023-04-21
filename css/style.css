@@ -12,7 +12,7 @@ body{
     
 }
 
-h1, h3 {
+h1, h2, h3 {
     font-family: var(--heading-font);
 }
 
@@ -28,6 +28,7 @@ p {
     font-size: 20px;
 }
 
+
 .intro {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -36,6 +37,7 @@ p {
 
 .text {
     color: var(--text-colour);
+    
 }
 
 .text a {
@@ -51,6 +53,17 @@ p {
 .underline {
     text-decoration: dashed;
 }
+
+.accordion-button, .accordion-body {
+    background: var(--body);
+    font-family: var(--text-font);
+    color: var(--text-colour);
+}
+
+.accordion-body {
+    font-style: italic;
+}
+
 
 @media (max-width: 575.98px) {
     p {
