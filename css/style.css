@@ -51,6 +51,10 @@ img {
     color: var(--secondary-colour);
 }
 
+.text a:hover {
+    color: var(--text-colour);
+}
+
 .navbar {
     background: var(--body);
     font-family: var(--heading-font);
@@ -98,6 +102,13 @@ img {
     font-family: var(--text-font);
     margin: auto 20px;
 }
+
+.animate__fadeInLeft, .animate__fadeInUp {
+    animation-duration: 600ms;
+    animation-delay: 0.9ms;
+}
+
+
 
 @media (max-width: 575.98px) {
     p {
