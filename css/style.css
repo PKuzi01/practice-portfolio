@@ -1,5 +1,5 @@
 :root {
-    --body: linear-gradient(to right, #434343 0%, black 100%);
+    --body: linear-gradient(to left, #434343 0%, rgb(21, 21, 21) 100%);
     --primary-colour: #595959;
     --secondary-colour: #C4C4C4;
     --text-colour: #f1e6e6; 
@@ -60,6 +60,15 @@ img {
     text-decoration: underline;
 }
 
+.accordion {
+    --bs-accordion-active-bg: none !important;
+    --bs-accordion-active-color: none !important;
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIC00NC40OTkgODYgOTAuNTAxIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik04MC4wOTMgMjIuNzQ5YTMuNDg4IDMuNDg4IDAgMCAwIDQuODk2IDAgMy40MDUgMy40MDUgMCAwIDAgMC00Ljg0N0w0NS40NDUtMjEuMjQ2YTMuNDgzIDMuNDgzIDAgMCAwLTQuODkyIDBMMS4wMTMgMTcuOTAyYTMuNDA1IDMuNDA1IDAgMCAwIDAgNC44NDcgMy40ODYgMy40ODYgMCAwIDAgNC44OTUgMGwzNy4wOTEtMzUuNzAzIDM3LjA5NCAzNS43MDN6IiBmaWxsPSIjZmZmZmZmIiBjbGFzcz0iZmlsbC0wMDAwMDAiPjwvcGF0aD48L3N2Zz4=") !important;
+    --bs-accordion-btn-icon-transform: none !important;
+    --bs-accordion-btn-focus-border-color: none !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+}
+
 .accordion-button, .accordion-body {
     background: var(--body);
     font-family: var(--text-font);
@@ -87,11 +96,12 @@ img {
 .contact {
     font-size: 25px;
     font-family: var(--text-font);
+    margin: auto 20px;
 }
 
 @media (max-width: 575.98px) {
     p {
-        font-size: 20px ;
+        font-size: 18px ;
     }
 
     footer {
