@@ -84,6 +84,11 @@ img {
     transform: scale(1.2);
 }
 
+.contact {
+    font-size: 25px;
+    font-family: var(--text-font);
+}
+
 @media (max-width: 575.98px) {
     p {
         font-size: 20px ;
